@@ -1,0 +1,13 @@
+train: E:/PycharmProjects/smoking_calling_detection/datasets/somking/train/images
+val: E:/PycharmProjects/smoking_calling_detection/datasets/somking/valid/images
+test: E:/PycharmProjects/smoking_calling_detection/datasets/somking/test/images
+
+nc: 1
+names: [ 'smoking' ]
+
+roboflow:
+  workspace: aurora-d8b4o
+  project: somking
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/aurora-d8b4o/somking/dataset/2
